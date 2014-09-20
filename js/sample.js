@@ -3,3 +3,4 @@ function distance(p1, p2) {
     var dy = p1.y - p2.y;
     return Math.sqrt(dx * dx + dy * dy);
 }
+//this is a comment
