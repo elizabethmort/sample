@@ -14,9 +14,9 @@ function distance(p1, p2) {
  */
 function startsWith(word, beginning) {
     // HINT: remember that strings are objects with methods like substr()...e.g. word.substr(3,4)
-    var lengthOfBeginning = ?;
-    var startOfWord = ?;
-    if (?)
+    var lengthOfBeginning = beginning.length;
+    var startOfWord = word.substring(0,lengthOfBeginning);
+    if (startOfWord == beginning )
         return true;
     else
         return false;
